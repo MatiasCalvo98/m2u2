@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+}
+
+.ej1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: solid 4px black;
+}
+
+.box1 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    align-content: center;
+}
+
+.box2 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    align-content: center;
+}
+
+.box3 {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    align-content: center;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
+    color: #ffff;
+}
+
+.ej2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    border: solid 4px black;
+}
+
+.ej3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 4px black;
+}
