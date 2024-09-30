@@ -2,34 +2,39 @@
     margin: 0px;
 }
 
-h1 {
-    background-color: beige;
-    padding: 10px;
-}
-
-.menu {
-    background-color: blanchedalmond;
-
-}
-
-ul {
-    list-style: none;
-}
-
-li {
-    padding: 10px;
-}
-
-.EjMq {
-    background-color: azure;
-    padding: 10px;
-}
-
-.AdCont {
-    background-color: cadetblue;
-    padding: 10px;
-}
-
-footer {
-    background-color: black;
+@media screen and (max-width: 800px) {
+    h1 {
+        text-align: center;
+        background-color: beige;
+        padding: 10px;
+    }
+    
+    .menu {
+        background-color: blanchedalmond;
+    
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    li {
+        padding: 10px;
+    }
+    
+    .EjMq {
+        text-align: center;
+        background-color: azure;
+        padding: 10px;
+    }
+    
+    .AdCont {
+        text-align: center;
+        background-color: cadetblue;
+        padding: 10px;
+    }
+    
+    footer {
+        background-color: black;
+    }    
 }
