@@ -1,0 +1,23 @@
+.margenes-li {
+    margin-right: 15px;
+}
+
+.margenes-li a {
+    color: red;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+
+.nav-link {
+    font-size: 10px;
+}
+
+.container-fluid {
+    padding: 0;
+}
